@@ -15,7 +15,8 @@ $ ansible <ansible_host> -m <module_name>
 $ ansible -m ping all
 
 # ping module for ansible localhost 
-$ ansible localhost -m ping		# ping localhost
+$ ansible -m ping	localhost	# ping localhost
+$ ansible -m ping	<host>
 ```
 
 ### Module > Setup
