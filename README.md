@@ -21,6 +21,6 @@ $ ansible -m ping	<host>
 
 ### Module > Setup
 ```markdown
-$ # setup module for localhost ansible
+# setup module for localhost ansible
 $ ansible localhost -m setup		# show ansible facts for localhost
 ```
