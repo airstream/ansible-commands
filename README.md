@@ -24,3 +24,9 @@ $ ansible -m ping	<host>
 # setup module for localhost ansible
 $ ansible localhost -m setup		# show ansible facts for localhost
 ```
+
+## Ansible playbook run
+```markdown
+$ ansible -i hosts --ask-become-pass --ask-vault-pass --limit hostname.fqdn.com --check # Dry run
+$ ansible -i hosts --ask-become-pass --ask-vault-pass --limit hostname.fqdn.com --check # Run 
+```
